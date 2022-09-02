@@ -3,7 +3,6 @@ Brightness is a simple program to modify the brightness of a Linux laptop
 
 # Installation
 ``` shell
-git clone https://github.com/Erreur-404/brightness.git
 cd brightness/src
 chmod 755 brightness.sh
 # If you want to run the file as yourself:
