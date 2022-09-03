@@ -7,13 +7,12 @@ This repository holds the relevant files to mimic the graphical environment that
 $ cd ~/bin
 $ git clone <TODO : Add the repo name>
 $ ln -s ~/bin/dotfiles/.config/alacritty/ ~/.config/
+$ ln -s ~/bin/dotfiles/.config/dunst/ ~/.config/ 
 $ ln -s ~/bin/dotfiles/.config/i3/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/picom/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/polybar/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/rofi/ ~/.config/
 $ ln -s ~/bin/dotfiles/.vim ~/
-$ sudo chown -R root:root dotfiles/etc/dunst
-$ sudo ln -s ~/bin/dotfiles/etc/dunst/ /etc/
 ```
 
 TODO : Installation script
