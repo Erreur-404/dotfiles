@@ -14,6 +14,3 @@ $ ln -s ~/bin/dotfiles/.config/polybar/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/rofi/ ~/.config/
 $ ln -s ~/bin/dotfiles/.vim ~/
 ```
-
-TODO : Installation script
-TODO : Dependencies
