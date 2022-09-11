@@ -218,7 +218,7 @@ bindsym $mod+r mode "resize"
 title_align center
 
 for_window [class=".*"] border pixel 0
-# default_border pixel 10 
+default_border pixel 10 
 
 focus_follows_mouse no
 
@@ -226,6 +226,7 @@ assign [class="(?i)firefox"] workspace 2
 assign [class="(?i)discord"] workspace 3
 for_window [class="(?i)spotify"] move window to workspace 4
 assign [class="(?i)codium"] workspace 5
+assign [class="(?i)jetbrains-idea-ce"] workspace 5
 
 for_window [class="(?i)VirtualBox Manager"] tabbed enable
 for_window [class="(?i)VirtualBox Machine"] tabbed enable
