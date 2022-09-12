@@ -5,7 +5,7 @@ This repository holds the relevant files to mimic the graphical environment that
 > Note: Make sure to backup your files before following this guide if any of the commands below involve overwriting a config
 ```shell
 $ cd ~/bin
-$ git clone <TODO : Add the repo name>
+$ git clone https://github.com/Erreur-404/dotfiles.git
 $ ln -s ~/bin/dotfiles/.config/alacritty/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/dunst/ ~/.config/ 
 $ ln -s ~/bin/dotfiles/.config/i3/ ~/.config/
