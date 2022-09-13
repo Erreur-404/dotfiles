@@ -223,8 +223,8 @@ default_border pixel 10
 focus_follows_mouse no
 
 assign [class="(?i)firefox"] workspace 2
-assign [class="(?i)discord"] workspace 3
-for_window [class="(?i)spotify"] move window to workspace 4
+for_window [class="(?i)spotify"] move window to workspace 3
+assign [class="(?i)discord"] workspace 4
 assign [class="(?i)codium"] workspace 5
 assign [class="(?i)jetbrains-idea-ce"] workspace 5
 
