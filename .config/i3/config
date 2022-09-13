@@ -54,7 +54,7 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -159,7 +159,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -245,7 +245,7 @@ bindsym $mod+Shift+Tab workspace prev
 
 ## The lines below are to be used with polybar or another alternative to i3status
 bindsym XF86MonBrightnessUp exec --no-startup-id ~/bin/dotfiles/bin/brightness/src/brightness.sh --inc 10 
-bindsym XF86MonBrightnessDown exec --no-startup-id ~/bin/dotfiles/bin/brightness/src/brightness.sh --dec 10 
+bindsym XF86MonBrightnessDown exec --no-startup-id ~/bin/dotfiles/bin/brightness/src/brightness.sh --dec 10
 bindsym Shift+XF86AudioRaiseVolume exec --no-startup-id ~/bin/dotfiles/bin/microphone/src/mic.sh -i 5
 bindsym Shift+XF86AudioLowerVolume exec --no-startup-id ~/bin/dotfiles/bin/microphone/src/mic.sh -d 5
 bindsym Shift+XF86AudioMute exec --no-startup-id ~/bin/dotfiles/bin/microphone/src/mic.sh -t >> /tmp/output.txt
@@ -285,4 +285,4 @@ gaps inner 20
 #    Other keymappings    #
 ###########################
 bindsym $mod+d exec --no-startup-id rofi -show drun
-bindsym $mod+Shift+s exec ~/bin/restart_spotify.sh
+bindsym $mod+Shift+s exec --no-startup-id ~/bin/restart_spotify.sh
