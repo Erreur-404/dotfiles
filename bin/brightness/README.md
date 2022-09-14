@@ -12,4 +12,4 @@ sudo chown root:root brightness.sh
 echo "PATH=$PATH:$(pwd)" >> ~/.bashrc  # Note : The file (~/.bashrc) may vary depending on your shell 
 ```
 Note: I also had to modify the file /etc/default/grub and add the following line: 
-`GRUB_CMDLINE_LINUX="acpi_backlight=video"`
+`GRUB_CMDLINE_LINUX="acpi_backlight=intel_backlight"`
