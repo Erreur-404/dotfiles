@@ -12,5 +12,6 @@ $ ln -s ~/bin/dotfiles/.config/i3/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/picom/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/polybar/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/rofi/ ~/.config/
+$ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 $ ln -s ~/bin/dotfiles/.vim ~/
 ```
