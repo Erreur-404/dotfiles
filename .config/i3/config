@@ -269,6 +269,7 @@ bindsym $mod+Shift+Print exec --no-startup-id flameshot gui -c
 exec --no-startup-id xdotool key Num_Lock
 exec --no-startup-id barrier
 exec --no-startup-id dunst
+exec --no-startup-id sleep 10 && barrierc TheMatrix
 exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/$(ls ~/Pictures/Wallpapers -1 | grep Cthulhu | sort -R | head -1)
 exec_always --no-startup-id picom
 ## Use the following line with i3status
