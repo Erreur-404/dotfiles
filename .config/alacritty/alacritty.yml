@@ -32,10 +32,9 @@ scrolling:
 colors:
   # Default colors
   primary:
-    background: '0x1D1F28'
     # foreground: '0xFDFDFD' # Original color (grey)
+    background: '0x1D1F28'
     # foreground: '0x80FFEA' # Same color as Polybar's foreground
-    foreground: '0xBAFFF4'
 
   # Normal colors
   normal:
