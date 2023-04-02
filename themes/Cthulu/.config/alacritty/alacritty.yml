@@ -28,6 +28,9 @@ selection:
 scrolling:
   history: 10000
 
+# Open a new terminal in the same directory using Super+Shift+Enter
+key_bindings:
+  - { key: Return,  mods: Super|Shift, action: SpawnNewInstance }
 
 colors:
   # Default colors
