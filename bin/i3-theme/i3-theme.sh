@@ -13,7 +13,11 @@ print_usage() {
 }
 
 list_themes() {
-	ls $THEMES_LOCATION
+	themes=$(ls $THEMES_LOCATION)
+	for theme in "${themes[@]}"
+	do
+			echo "$theme"
+	done
 }
 
 set_theme() {
@@ -28,7 +32,7 @@ set_theme() {
 	        return
 	    fi
 	done
-	echo "The specified theme cannot be found"
+	echo "Theme $FIRST_PARAM cannot be found"
 }
 
 main() {
