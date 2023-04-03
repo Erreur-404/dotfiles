@@ -142,12 +142,12 @@ configuration {
 }
 
 * {
-  primary: #54A49E;
+  primary: #396d3a;
   secondary: #1D626A;
-  tertiary: #80C2C0;
-  quartenary: #0C363F;
-  quintenary: #CF3D3B;
-  background-color: #05161E;
+  tertiary: #396d3a;
+  quartenary: #0d190d;
+  quintenary: #eff7f0;
+  background-color: #040a04;
   text-color: @tertiary;
 }
 
