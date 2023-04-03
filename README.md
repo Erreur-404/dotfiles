@@ -17,3 +17,6 @@ $ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 $ ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
 $ ln -s ~/bin/dotfiles/.vim ~/
 ```
+
+# Tools
+Use the `i3-theme` tool located in `~/bin/dotfiles/bin/i3-theme/i3-theme.sh` to change the theme dynamically
