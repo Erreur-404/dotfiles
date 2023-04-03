@@ -14,5 +14,6 @@ $ ln -s ~/bin/dotfiles/.config/polybar/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/rofi/ ~/.config/
 $ ln -s ~/bin/dotfiles/.config/ranger ~/.config/
 $ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
+$ ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
 $ ln -s ~/bin/dotfiles/.vim ~/
 ```
