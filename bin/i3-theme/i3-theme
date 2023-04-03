@@ -32,7 +32,7 @@ set_theme() {
 	        return
 	    fi
 	done
-	echo "Theme $FIRST_PARAM cannot be found"
+	print_usage
 }
 
 main() {
