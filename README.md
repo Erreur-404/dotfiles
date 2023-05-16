@@ -1,6 +1,9 @@
 # Overview
 This repository holds the relevant files to mimic the graphical environment that I use. It is heavily inspired by [this](https://github.com/Void-TK-57/dotfiles-Cthulhu) github repository, but is still different in many ways.
 
+# Requirements
+For a Arch Linux System, one needs to download the packages located in the `pkg` directory to make sure that the fonts are correctly displayed.
+
 # Installation
 > Note: Make sure to backup your files before following this guide if any of the commands below involve overwriting a config
 ```shell
