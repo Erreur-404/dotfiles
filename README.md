@@ -19,6 +19,7 @@ $ ln -s ~/bin/dotfiles/.config/ranger ~/.config/
 $ ln -s ~/bin/dotfiles/.config/gtk-3.0/settings.ini ~/.config/gtk-3.0/
 $ ln -s ~/bin/dotfiles/.config/oh-my-zsh/themes/jonathan.zsh-theme ~/.oh-my-zsh/themes/jonathan.zsh-theme
 $ ln -s ~/bin/dotfiles/.vim ~/
+$ sudo pacman -U pkg/ttf-nerd-fonts-symbols-2048-em-2.3.3-1-any.pkg.tar.zst
 ```
 
 # Tools
