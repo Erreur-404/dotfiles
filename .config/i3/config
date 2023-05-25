@@ -287,3 +287,4 @@ gaps inner 20
 ###########################
 bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym $mod+Shift+s exec --no-startup-id ~/bin/utils/restart_spotify.sh
+bindsym $mod+x move workspace to output next
