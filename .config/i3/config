@@ -270,7 +270,7 @@ exec --no-startup-id xdotool key Num_Lock
 exec --no-startup-id barrier
 exec --no-startup-id dunst
 exec --no-startup-id sleep 10 && barrierc TheMatrix
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/leaves.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpapers/leaves.jpg
 exec_always --no-startup-id picom
 ## Use the following line with i3status
 # exec_always --no-startup-id ~/bin/dotfiles/bin/microphone/src/mic.sh --should-loop
